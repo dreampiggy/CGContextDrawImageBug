@@ -52,6 +52,7 @@
     }
     
     CGContextRef context = CGBitmapContextCreate(NULL, width, height, 8, 0, colorspace, bitmapInfo);
+    CGColorSpaceRelease(colorspace);
     NSParameterAssert(context);
     CGContextDrawImage(context, CGRectMake(0, 0, width, height), cgimage);
     CGImageRef createdCGImage = CGBitmapContextCreateImage(context);
