@@ -6,6 +6,7 @@ iOS 15+ only:
 + Wrong behavior:
 
 When create non-alpha CGImage from CGBitmapContext with bitmap format BGRX8888, the created CGImage will always been black.
+
 When create non-alpha CGImage from CGBitmapContext with bitmap format BGRA8888, the created CGImage will works correctly.
 
 - Designed behavior:
