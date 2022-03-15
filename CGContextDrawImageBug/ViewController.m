@@ -28,11 +28,11 @@
     
     UIImageView *imageView1 = [[UIImageView alloc] initWithImage:image1];
     [self.view addSubview:imageView1];
-    imageView1.frame = CGRectMake(0, 0, 200, 200);
+    imageView1.frame = CGRectMake(0, 100, 200, 200);
     
     UIImageView *imageView2 = [[UIImageView alloc] initWithImage:image2];
     [self.view addSubview:imageView2];
-    imageView2.frame = CGRectMake(0, 300, 200, 200);
+    imageView2.frame = CGRectMake(0, 400, 200, 200);
 }
 
 - (UIImage *)testCGContextBugWithImage:(UIImage *)image alpha:(BOOL)alpha {

@@ -10,10 +10,14 @@ When create non-alpha CGImage from CGBitmapContext with bitmap format BGRA8888, 
 
 - Designed behavior:
 
-Both BGRX8888 or BGRA8888 should draw image coorectly, as previous works on iOS 6.0-14.8
+Both BGRX8888 or BGRA8888 should draw image correctly, as previous works on iOS 6.0-14.8
 
 # Demo
 
 + Open `CGContextDrawImageBug.xcodeproj`
 + Build and run on iOS 14/iOS 15 device
-+ See difference result: iOS 14 show two image view with image correctly. While iOS 15 show first black and another coorectly.
++ See difference result: iOS 14 show two image view with image correctly. While iOS 15 show first black and another correctly.
+
+# Screenshot
+
+![](./Screenshot.png)
